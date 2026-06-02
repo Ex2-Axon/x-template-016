@@ -1,0 +1,270 @@
+You are building a daily UI project. Below is the theme specification for today.
+
+## Theme Context (daily-context.json)
+```json
+{
+  "day": 16,
+  "date": "2026-05-30",
+  "version": "1.16.0",
+  "project_name": "x-template-016",
+  "theme": {
+    "name": "Raw Data Terminal",
+    "style": "Digital Brutalism, Retro-Tech",
+    "mood": "utilitarian, stark, data-driven, industrial, direct"
+  },
+  "palette": {
+    "background": "#101116",
+    "surface": "#24272E",
+    "primary": "#00BFFF",
+    "accent": "#FF4500",
+    "text": "#E0E0E0",
+    "muted": "#9E9E9E"
+  },
+  "typography": {
+    "heading": "VT323",
+    "body": "Roboto Mono",
+    "size": "medium"
+  },
+  "layout": {
+    "structure": "grid",
+    "density": "compact",
+    "border_style": "solid 2px #3E424B"
+  },
+  "animation": {
+    "level": "minimal",
+    "style": "flicker, scanline effect on text hover"
+  },
+  "components": {
+    "hero_text": "SYSTEM LOG IN",
+    "subtitle": "Accessing secure data streams. Authorization required.",
+    "button_label": "EXECUTE COMMAND",
+    "badge_text": "STATUS: ACTIVE"
+  },
+  "commit_message": "feat: UI Day 16 — Raw Data Terminal",
+  "source": "gemini-key1",
+  "selected_component": {
+    "category": "Buttons",
+    "component": "SelfMadeSystem_brown-kangaroo-43.html",
+    "path": "C:\\Users\\User\\Documents\\GitHub\\Axon\\x-components\\Buttons\\SelfMadeSystem_brown-kangaroo-43.html",
+    "content": "<button class=\"btn\">\n  <span>Ripple</span>\n  <div class=\"ripple-container\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    \n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    \n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    \n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    \n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    \n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n  </div>\n</button>\n<style>\n/* Tags: material design, button, ripple */\n.btn {\n  border-radius: 0.5em;\n  font-size: larger;\n  height: 3em;\n  width: 6em;\n  position: relative;\n  border: none;\n  background-color: hsl(218, 68%, 52%);\n  overflow: hidden;\n  isolation: isolate;\n  color: white;\n  box-shadow: 1px 2px 4px #0007;\n  transition: background-color 0.2s;\n}\n\n.btn:hover {\n  background-color: hsl(218, 68%, 47%);\n}\n\n.btn > span {\n  position: relative;\n  pointer-events: none;\n  z-index: 10;\n}\n\n.ripple-container {\n  position: absolute;\n  inset: 0;\n  display: grid;\n  grid-template-columns: repeat(12, 0.5em);\n}\n\n.ripple-container > span {\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.ripple-container > span::after {\n  content: \"\";\n  pointer-events: none;\n  position: absolute;\n  background-color: hsl(218, 68%, 65%);\n  transition: width 0.5s ease-out, height 0.5s ease-out, opacity 1s;\n  width: 13em;\n  height: 13em;\n  opacity: 0;\n  border-radius: 999em;\n}\n\n.ripple-container > span:active::after {\n  transition: 0s;\n  width: 0em;\n  height: 0em;\n  opacity: 1;\n}\n\n/*\nUse this instead if you want the ripple to start\nimmediately on click but end abruptly on unclick:\n\n.ripple-container > span::after {\n  content: \"\";\n  pointer-events: none;\n  position: absolute;\n  background-color: hsl(218, 68%, 65%);\n  width: 0em;\n  height: 0em;\n  border-radius: 999em;\n  opacity: 1;\n}\n\n.ripple-container > span:active::after {\n  transition: width 0.25s ease-out, height 0.25s ease-out, opacity 0.75s;\n  width: 13em;\n  height: 13em;\n  opacity: 0;\n}\n\nYour Global selectors gets triggered :\n*/\n</style>"
+  }
+}
+```
+
+## Selected Component Reference
+- Category: Buttons
+- Component: SelfMadeSystem_brown-kangaroo-43.html
+- Path: C:\Users\User\Documents\GitHub\Axon\x-components\Buttons\SelfMadeSystem_brown-kangaroo-43.html
+
+Use the selected component HTML below as the primary design reference for the new UI. Keep the structure and styling assumptions in mind while rewriting the requested files.
+```html
+<button class="btn">
+  <span>Ripple</span>
+  <div class="ripple-container">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</button>
+<style>
+/* Tags: material design, button, ripple */
+.btn {
+  border-radius: 0.5em;
+  font-size: larger;
+  height: 3em;
+  width: 6em;
+  position: relative;
+  border: none;
+  background-color: hsl(218, 68%, 52%);
+  overflow: hidden;
+  isolation: isolate;
+  color: white;
+  box-shadow: 1px 2px 4px #0007;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: hsl(218, 68%, 47%);
+}
+
+.btn > span {
+  position: relative;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.ripple-container {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 0.5em);
+}
+
+.ripple-container > span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ripple-container > span::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  background-color: hsl(218, 68%, 65%);
+  transition: width 0.5s ease-out, height 0.5s ease-out, opacity 1s;
+  width: 13em;
+  height: 13em;
+  opacity: 0;
+  border-radius: 999em;
+}
+
+.ripple-container > span:active::after {
+  transition: 0s;
+  width: 0em;
+  height: 0em;
+  opacity: 1;
+}
+
+/*
+Use this instead if you want the ripple to start
+immediately on click but end abruptly on unclick:
+
+.ripple-container > span::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  background-color: hsl(218, 68%, 65%);
+  width: 0em;
+  height: 0em;
+  border-radius: 999em;
+  opacity: 1;
+}
+
+.ripple-container > span:active::after {
+  transition: width 0.25s ease-out, height 0.25s ease-out, opacity 0.75s;
+  width: 13em;
+  height: 13em;
+  opacity: 0;
+}
+
+Your Global selectors gets triggered :
+*/
+</style>
+```
+
+## Your Task
+Completely redesign the UI by rewriting these three files from scratch:
+- `src/App.tsx`
+- `src/App.css`
+- `src/index.css`
+
+## Rules for App.tsx
+1. Keep ALL existing imports:
+   - `import { useState, useEffect, useRef } from 'react'`
+   - `import reactLogo from './assets/react.svg'`
+   - `import viteLogo from './assets/vite.svg'`
+   - `import heroImg from './assets/hero.png'`
+   - `import './App.css'`
+2. Keep the `CounterNum` component (useRef + useEffect animation)
+3. Keep the counter button with `onClick` / `setCount` handler
+4. Keep the Documentation section (Vite/React links)
+5. Keep the Social section (GitHub/Discord/X/Bluesky links + SVG icons)
+6. Do NOT use CSS custom properties (`--var-name`) in inline `style` attributes — TypeScript will error
+
+## Rules for CSS
+- Apply the palette, typography, layout structure, animation level, and component text from the JSON above
+- Use Google Fonts via `@import` in `index.css`
+- Match the theme mood: utilitarian, stark, data-driven, industrial, direct
+
+## Mandatory Requirements (apply to every build)
+
+### 1. Responsive — Mobile First
+- Design for mobile (320px) first, scale up with `min-width` breakpoints
+- Touch targets minimum 44×44px
+- No horizontal scroll on any screen size
+- Fluid typography: use `clamp()` or responsive units (`rem`, `%`, `vw`)
+- Images and layout must reflow gracefully at 320px, 768px, 1280px
+
+### 2. Footer Copyright
+- The page MUST have a `<footer>` at the bottom
+- Footer text: `© 2026 Microtronic. All rights reserved.`
+- Style the footer to match the theme palette (muted text on surface background)
+
+### 3. SEO Standards
+- `index.html` must have a descriptive `<title>`: `SYSTEM LOG IN — Raw Data Terminal | Microtronic`
+- Add `<meta name="description">` with the subtitle: `Accessing secure data streams. Authorization required.`
+- Add `<meta name="keywords">` relevant to the theme
+- Add Open Graph tags: `og:title`, `og:description`, `og:type` (website)
+- All images must have meaningful `alt` attributes
+- Use semantic HTML: `<header>`, `<main>`, `<section>`, `<footer>`, `<nav>` where appropriate
+- Heading hierarchy: one `<h1>` (hero), `<h2>` for sections — no skipping levels
+
+## After saving all files
+1. Update `version` in `package.json` to `1.16.0`
+2. Update `<title>` and meta tags in `index.html` as specified above
+3. Run: `pnpm build`
+4. If build succeeds → write `done` to `scripts/build-done.flag`
+5. If build fails with TypeScript errors → fix them and rebuild

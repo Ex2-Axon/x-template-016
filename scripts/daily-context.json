@@ -1,0 +1,47 @@
+{
+  "day": 16,
+  "date": "2026-05-30",
+  "version": "1.16.0",
+  "project_name": "x-template-016",
+  "theme": {
+    "name": "Raw Data Terminal",
+    "style": "Digital Brutalism, Retro-Tech",
+    "mood": "utilitarian, stark, data-driven, industrial, direct"
+  },
+  "palette": {
+    "background": "#101116",
+    "surface": "#24272E",
+    "primary": "#00BFFF",
+    "accent": "#FF4500",
+    "text": "#E0E0E0",
+    "muted": "#9E9E9E"
+  },
+  "typography": {
+    "heading": "VT323",
+    "body": "Roboto Mono",
+    "size": "medium"
+  },
+  "layout": {
+    "structure": "grid",
+    "density": "compact",
+    "border_style": "solid 2px #3E424B"
+  },
+  "animation": {
+    "level": "minimal",
+    "style": "flicker, scanline effect on text hover"
+  },
+  "components": {
+    "hero_text": "SYSTEM LOG IN",
+    "subtitle": "Accessing secure data streams. Authorization required.",
+    "button_label": "EXECUTE COMMAND",
+    "badge_text": "STATUS: ACTIVE"
+  },
+  "commit_message": "feat: UI Day 16 — Raw Data Terminal",
+  "source": "gemini-key1",
+  "selected_component": {
+    "category": "loaders",
+    "component": "fanishah_wicked-wasp-20.html",
+    "path": "C:\\Users\\User\\Documents\\GitHub\\Axon\\x-components\\loaders\\fanishah_wicked-wasp-20.html",
+    "content": "<svg class=\"gegga\">\n    <defs>\n        <filter id=\"gegga\">\n            <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"7\" result=\"blur\"></feGaussianBlur>\n            <feColorMatrix in=\"blur\" mode=\"matrix\" values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 20 -10\" result=\"inreGegga\"></feColorMatrix>\n            <feComposite in=\"SourceGraphic\" in2=\"inreGegga\" operator=\"atop\"></feComposite>\n        </filter>\n    </defs>\n</svg>\n<svg class=\"snurra\" width=\"200\" height=\"200\" viewBox=\"0 0 200 200\">\n    <defs>\n        <linearGradient id=\"linjärGradient\">\n            <stop class=\"stopp1\" offset=\"0\"></stop>\n            <stop class=\"stopp2\" offset=\"1\"></stop>\n        </linearGradient>\n        <linearGradient y2=\"160\" x2=\"160\" y1=\"40\" x1=\"40\" gradientUnits=\"userSpaceOnUse\" id=\"gradient\" xlink:href=\"#linjärGradient\"></linearGradient>\n    </defs>\n    <path class=\"halvan\" d=\"m 164,100 c 0,-35.346224 -28.65378,-64 -64,-64 -35.346224,0 -64,28.653776 -64,64 0,35.34622 28.653776,64 64,64 35.34622,0 64,-26.21502 64,-64 0,-37.784981 -26.92058,-64 -64,-64 -37.079421,0 -65.267479,26.922736 -64,64 1.267479,37.07726 26.703171,65.05317 64,64 37.29683,-1.05317 64,-64 64,-64\"></path>\n    <circle class=\"strecken\" cx=\"100\" cy=\"100\" r=\"64\"></circle>\n</svg>\n<svg class=\"skugga\" width=\"200\" height=\"200\" viewBox=\"0 0 200 200\">\n    <path class=\"halvan\" d=\"m 164,100 c 0,-35.346224 -28.65378,-64 -64,-64 -35.346224,0 -64,28.653776 -64,64 0,35.34622 28.653776,64 64,64 35.34622,0 64,-26.21502 64,-64 0,-37.784981 -26.92058,-64 -64,-64 -37.079421,0 -65.267479,26.922736 -64,64 1.267479,37.07726 26.703171,65.05317 64,64 37.29683,-1.05317 64,-64 64,-64\"></path>\n    <circle class=\"strecken\" cx=\"100\" cy=\"100\" r=\"64\"></circle>\n</svg>\n<style>\n/* Tags: loader */\n.gegga {\n  width: 0;\n}\n\n.snurra {\n  filter: url(#gegga);\n}\n\n.stopp1 {\n  stop-color: #f700a8;\n}\n\n.stopp2 {\n  stop-color: #ff8000;\n}\n\n.halvan {\n  animation: Snurra1 10s infinite linear;\n  stroke-dasharray: 180 800;\n  fill: none;\n  stroke: url(#gradient);\n  stroke-width: 23;\n  stroke-linecap: round;\n}\n\n.strecken {\n  animation: Snurra1 3s infinite linear;\n  stroke-dasharray: 26 54;\n  fill: none;\n  stroke: url(#gradient);\n  stroke-width: 23;\n  stroke-linecap: round;\n}\n\n.skugga {\n  filter: blur(5px);\n  opacity: 0.3;\n  position: absolute;\n  transform: translate(3px, 3px);\n}\n\n@keyframes Snurra1 {\n  0% {\n    stroke-dashoffset: 0;\n  }\n\n  100% {\n    stroke-dashoffset: -403px;\n  }\n}\n\n</style>"
+  }
+}
